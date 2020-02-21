@@ -1,2 +1,9 @@
-- name: wemake-python-styleguide
-  uses: wemake-services/wemake-python-styleguide@0.13.4
+name: wemake-python-styleguide
+on:
+  pull_request
+jobs:
+  wemake:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Hello world
+        uses: wemake-services/wemake-python-styleguide@0.13.4
