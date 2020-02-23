@@ -1,5 +1,6 @@
 print("Hello")
 print("Hello")
 
-def f():
+
+def fun():
     return 1
